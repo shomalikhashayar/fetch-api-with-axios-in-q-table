@@ -1,0 +1,30 @@
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.q-table tr {
+  padding: 10px 0;
+}
+.q-table th {
+  font-weight: 600;
+  font-size: 12px;
+  background-color: #dff1ff;
+}
+
+.q-table__sort-icon--left,
+.q-table__sort-icon--right,
+.q-table__sort-icon--center {
+  color: #2196f3;
+  font-size: 16px;
+}
+
+.q-table--horizontal-separator thead th,
+.q-table--horizontal-separator tbody tr:not(:last-child) > td,
+.q-table--cell-separator thead th,
+.q-table--cell-separator tbody tr:not(:last-child) > td {
+  border: none;
+}
+
+.q-table__card{
+  box-shadow: none;
+}
